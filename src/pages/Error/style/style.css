@@ -1,0 +1,75 @@
+.Error-container {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.Error-img {
+  width: 120px;
+  height: 120px;
+  background-image: url("./img/404-error.png");
+  background-size: cover;
+  position: relative;
+  top: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Error-txt-img {
+  width: 900px;
+  height: 900px;
+  background-image: url("./img/network-error.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+.Error-Message {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #151723;
+  position: absolute;
+  top: 60%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  color: #999fa5;
+  font-weight: 400;
+  position: absolute;
+  top: 68%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
