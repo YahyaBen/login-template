@@ -18,7 +18,7 @@ const Home = () => {
     <div>
       Table formatrice
       <Button variant="warning" onClick={seDeconnecter}>
-        Se deconnecter
+        Se deconnecter {logedout}
       </Button>
     </div>
   );

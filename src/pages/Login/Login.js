@@ -11,7 +11,7 @@ const Login = () => {
 
   const seConnecter = (e) => {
     e.preventDefault();
-    // login(mail,password)
+    login(mail,password).then(e=> console.log(e))
     console.log({ mail, password });
     localStorage.setItem(mail, password);
     setLoged(true);
@@ -34,9 +34,9 @@ const Login = () => {
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control
-              type="email"
+              type="text"
               placeholder="Enter email"
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(e) => setMail(e.target.value)}
             />
           </Form.Group>
 
@@ -45,7 +45,7 @@ const Login = () => {
             <Form.Control
               type="password"
               placeholder="Password"
-              onChange={(e) => setMail(e.target.value)}
+              onChange={(e) => setPassword(e.target.value)}
             />
           </Form.Group>
 
